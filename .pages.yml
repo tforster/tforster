@@ -22,7 +22,8 @@ content:
         type: rich-text
   - name: home
     label: Home Page
-    path: _home.yaml
+    path: home.json
+    type: file
     fields:
       - name: webProducerKey
         label: The Gilbert template to use to render the home page
