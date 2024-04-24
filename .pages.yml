@@ -36,7 +36,7 @@ content:
         type: string
       - name: summary
         label: The summary text for the page
-        type: string 
+        type: rich-text
   - name: config
     label: Jekyll config
     path: _config.yml
