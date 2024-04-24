@@ -20,6 +20,22 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: home
+    label: Home Page
+    path: home.json
+    fields:
+      - name: webProducerKey
+        label: The Gilbert template to use to render the home page
+        type: string
+      - name: title
+        lable: The title of the home page to show in the browser tab
+        type: string
+      - name: heading
+        label: I can't remember
+        type: string
+      - name: summary
+        label: The summary text for the page
+        type: string 
   - name: config
     label: Jekyll config
     path: _config.yml
