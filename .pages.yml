@@ -22,7 +22,7 @@ content:
         type: rich-text
   - name: pages
     label: pages
-    path: pages.json
+    path: pages
     type: collection
     fields:
       - name: webProducerKey
