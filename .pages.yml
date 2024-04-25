@@ -24,6 +24,7 @@ content:
     label: pages
     path: pages
     type: collection
+    format: json
     fields:
       - name: webProducerKey
         label: The Gilbert template to use to render the home page
