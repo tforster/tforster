@@ -20,10 +20,28 @@ content:
       - name: body
         label: Body
         type: rich-text
+  - name: pages
+    label: pages
+    path: pages.json
+    type: collection
+    fields:
+      - name: webProducerKey
+        label: The Gilbert template to use to render the home page
+        type: string
+      - name: title
+        lable: The title of the home page to show in the browser tab
+        type: string
+      - name: heading
+        label: I can't remember
+        type: string
+      - name: summary
+        label: The summary text for the page
+        type: rich-text    
   - name: home
     label: Home Page
     path: home.json
     type: file
+    
     fields:
       - name: webProducerKey
         label: The Gilbert template to use to render the home page
